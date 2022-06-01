@@ -15,7 +15,7 @@ resource "aws_instance" "servers" {
 }
 
 output "pub-ips" {
-  value = values(aws_instance.servers2)[*].public_ip
+  value = values(aws_instance.servers)[*].public_ip
   # value = aws_instance.servers2["nano"].public_ip
 
 }

@@ -9,7 +9,7 @@ terraform {
 
 
 provider "aws" {
-  profile = "naggar-general"
+  # profile = "naggar-general"
   region  = "us-east-1"
 
   default_tags {
