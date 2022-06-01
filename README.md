@@ -7,7 +7,4 @@ module "ec2s" {
   
 }
 
-output "public_ip" {
-  value = module.ec2s.public-ips
-}
 ```
